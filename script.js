@@ -24,7 +24,6 @@ function processaTexto(texto){
   function ordenaPalavra (p1, p2){
     return frequencias [p2] - frequencias[p1];
   }
-  console.log(ordenadas);
   return ordenadas.slice(0, 10);
 }
 
