@@ -45,8 +45,8 @@ function tiraPalavrasRuins(palavras) {
     const PALAVRAS_RUINS = ["para", "uma", "nós"];
     const palavrasBoas = [];
     for (let palavra of palavras){
-        if(!PALAVRAS_RUINS palavra.lebgth > 2){
-            palavrasBoas.push(palavras); 
+        if(!PALAVRAS_RUINS.has(palavra) palavra.lebgth > 2){
+            palavrasBoas.push(palavra); 
         }  
     }
     return palavrasBoas
