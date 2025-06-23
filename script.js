@@ -16,7 +16,7 @@ function processaTexto(texto){
   
    let frequencias = [];
    for(let i in palavras) {
-    
+     frequencias [i] = 0;
    }
 
    return palavras;
