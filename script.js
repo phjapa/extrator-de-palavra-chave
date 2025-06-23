@@ -47,4 +47,5 @@ function tiraPalavrasRuins(palavras) {
         if(palavra.lebgth > 2)
             palavrasBoas.push(palavras);   
     }
+    return palavrasBoas
 }
