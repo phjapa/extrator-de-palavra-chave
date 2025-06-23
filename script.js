@@ -29,7 +29,7 @@ function processaTexto(texto){
 
 function contaFrequencias(palavras){
     let frequencias = {};
-    for(let i of palavras) {
+    for(let i of palavras){
       frequencias [i] = 0;
       for (let j of palavras){
          if (i == j){
@@ -38,5 +38,9 @@ function contaFrequencias(palavras){
       }
     }
      return frequencias;
+    
+}
+ 
+function tiraPalavrasRuins(palavras) {
     
 }
