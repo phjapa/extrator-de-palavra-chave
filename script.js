@@ -42,5 +42,5 @@ function contaFrequencias(palavras){
 }
  
 function tiraPalavrasRuins(palavras) {
-    
+    const palavrasBoas = []
 }
