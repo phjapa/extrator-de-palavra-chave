@@ -42,10 +42,12 @@ function contaFrequencias(palavras){
 }
  
 function tiraPalavrasRuins(palavras) {
+    const PALAVRAS_RUINS = ["para", "uma", "nós"];
     const palavrasBoas = [];
     for (let palavra of palavras){
-        if(palavra.lebgth > 2)
-            palavrasBoas.push(palavras);   
+        if(palavra.lebgth > 2){
+            palavrasBoas.push(palavras); 
+        }  
     }
     return palavrasBoas
 }
